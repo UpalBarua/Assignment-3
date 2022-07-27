@@ -35,6 +35,6 @@
   z-index: 10;
 }
 
-.explore {
+.explore > .row {
   background-color: #f4fafd;
 }
