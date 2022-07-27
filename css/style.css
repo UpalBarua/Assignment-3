@@ -8,3 +8,33 @@
 .ff-secondary {
   font-family: 'Palanquin', sans-serif;
 }
+
+.banner-carousel-item::before {
+  content: '';
+  background-color: #000000;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 0.5rem;
+}
+
+.banner-carousel-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 30rem; */
+}
+
+.banner-carousel-item > div {
+  max-width: 55ch;
+}
+
+.banner-carousel-item > * {
+  position: relative;
+  z-index: 10;
+}
+
+.explore {
+  background-color: #f4fafd;
+}
