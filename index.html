@@ -27,15 +27,15 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Learning Mate</title>
   </head>
-  <body class="ff-primary">
+  <body class="ff-success">
     <!-- HEADER -->
     <header>
       <!-- navigation bar -->
-      <nav class="navbar navbar-expand-lg py-3">
+      <nav class="navbar navbar-expand-lg py-3 mb-2">
         <div class="container">
           <a class="navbar-brand | fs-2 fw-bold ff-secondary" href="#">Learning Mate</a>
           <a
-            class="d-none d-md-block btn btn-outline-primary fs-5 fw-bold order-lg-last ms-auto me-2 py-2 px-4"
+            class="d-none d-md-block btn btn-outline-success fs-5 fw-bold order-lg-last ms-auto me-2 py-2 px-4"
             href="#"
           >
             Register
@@ -80,67 +80,40 @@
       <section class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <!-- slide 1 -->
-            <div
-              class="banner-carousel-item carousel-item active d-flex justify-content-center align-items-center text-center rounded-2 py-5"
-              style="background-image: url('./assets/cover/cover-1.png')"
-            >
-              <div class="text-light mx-5">
-                <h1 class="fs-1 fw-bold mb-2">Get Started Digital Learning</h1>
-                <p class="mb-4">
-                  It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.
-                </p>
-                <a href="#" class="btn btn-primary btn-lg fw-bold fs-4 px-4">Get Started</a>
+            <!-- item 1 -->
+            <div class="carousel-item active">
+              <div class="banner-carousel-item text-light d-flex flex-column justify-content-center align-items-center text-center rounded-2" style="background-image: url('./assets/cover/cover-1.png');">
+                <h1 class="fs-1 fw-bold mb-2 px-3">Get Started Digital Learning</h1>
+                <p class="mb-3 px-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <a href="#" class="btn btn-success btn-lg fw-bold px-4">Get Started</a>
               </div>
             </div>
 
-            <!-- slide 2 -->
-            <div
-              class="banner-carousel-item carousel-item d-flex justify-content-center align-items-center text-center rounded-2 py-5"
-              style="background-image: url('./assets/cover/cover-2.jpg')"
-            >
-              <div class="text-light mx-5">
-                <h1 class="fs-1 fw-bold mb-2">Get Started Digital Learning</h1>
-                <p class="mb-4">
-                  It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.
-                </p>
-                <a href="#" class="btn btn-primary btn-lg fw-bold fs-4 px-4">Get Started</a>
+            <!-- item 2 -->
+            <div class="carousel-item active">
+              <div class="banner-carousel-item text-light d-flex flex-column justify-content-center align-items-center text-center rounded-2" style="background-image: url('./assets/cover/cover-2.jpg');">
+                <h1 class="fs-1 fw-bold mb-2 px-3">Get Started Digital Learning</h1>
+                <p class="mb-3 px-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <a href="#" class="btn btn-success btn-lg fw-bold px-4">Get Started</a>
               </div>
             </div>
 
-            <!-- slide 3 -->
-            <div
-              class="banner-carousel-item carousel-item d-flex justify-content-center align-items-center text-center rounded-2 py-5"
-              style="background-image: url('./assets/cover/cover-3.jpg')"
-            >
-              <div class="text-light mx-5">
-                <h1 class="fs-1 fw-bold mb-2">Get Started Digital Learning</h1>
-                <p class="mb-4">
-                  It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.
-                </p>
-                <a href="#" class="btn btn-primary btn-lg fw-bold fs-4 px-4">Get Started</a>
+            <!-- item 3 -->
+            <div class="carousel-item active">
+              <div class="banner-carousel-item text-light d-flex flex-column justify-content-center align-items-center text-center rounded-2" style="background-image: url('./assets/cover/cover-3.jpg');">
+                <h1 class="fs-1 fw-bold mb-2 px-3">Get Started Digital Learning</h1>
+                <p class="mb-3 px-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <a href="#" class="btn btn-success btn-lg fw-bold px-4">Get Started</a>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev d-none d-sm-block"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon d-none d-md-block" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next d-none d-sm-block"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon d-none d-md-block" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -150,7 +123,7 @@
 
     <!-- COURSES -->
     <main class="courses">
-      <div class="container py-5 my-5">
+      <div class="container py-5 my-0 my-md-5">
         <h2 class="ff-secondary fs-2 fw-bold text-center mb-3">Discover Our Popular Courses</h2>
         <p class="text-center text-secondary mb-5">
           It is a long established fact that a reader will be distracted by the readable content of
@@ -167,7 +140,7 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card's content.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
@@ -181,7 +154,7 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
@@ -196,7 +169,7 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
@@ -211,7 +184,7 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
@@ -226,7 +199,7 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
@@ -241,13 +214,13 @@
                   Some quick example text to build on the card title and make up the bulk of the
                   card.
                 </p>
-                <p class="text-primary fw-bold fs-5">Prcie: $20</p>
+                <p class="text-success fw-bold fs-5">Prcie: $20</p>
               </div>
             </div>
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="#" class="btn btn-primary btn-lg fw-bold px-4 mt-3">See More Courses</a>
+          <a href="#" class="btn btn-success btn-lg fw-bold px-4 mt-3">See More Courses</a>
         </div>
       </div>
     </main>
@@ -255,7 +228,7 @@
 
     <!-- EXPLORE -->
     <section class="container">
-      <div class="explore container my-5 mx-auto">
+      <div class="explore container my-0 my-md-5 mx-auto">
         <div class="row justify-content-center align-items-center">
           <div class="col-12 col-md-5 p-0">
             <img class="img-fluid" src="./assets/working.png" alt="" />
@@ -268,7 +241,7 @@
               suffered alteration in some form, by injected humour, or randomized words which don't
               look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
               need to be sure.
-              <span class="d-lg-none text-primary">See More</span>
+              <span class="d-lg-none text-success">See More</span>
             </p>
             <p class="d-none d-lg-block text-secondary">
               Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
@@ -288,7 +261,7 @@
                 <p class="text-secondary">Rating & Review</p>
               </div>
             </div>
-            <a href="#" class="btn btn-primary btn-lg px-4 fw-bold">Read More</a>
+            <a href="#" class="btn btn-success btn-lg px-4 fw-bold">Read More</a>
           </div>
         </div>
       </div>
@@ -298,22 +271,110 @@
     <!-- REGISTER -->
     <section class="container">
       <div
-        class="bg-primary text-light my-5 py-4 px-5 d-flex flex-column flex-lg-row justify-content-between align-items-center text-center text-lg-start rounded-2"
+        class="bg-success text-light mt-5 my-5 p-5 d-flex flex-column flex-lg-row justify-content-between align-items-center text-center text-lg-start rounded-2"
       >
-        <div class="w-50">
+        <div>
           <h2 class="ff-secondary fs-1 fw-bold">Ready to join?</h2>
-          <p>
+          <p class="register-text">
             It is a long established fact that a reader will be distracted by the readable content
             of a page when looking at its layout.
           </p>
         </div>
-        <a href="#" class="btn btn-light text-primary fs-5 px-4 fw-bold">Registration</a>
+
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-light text-success fs-5 px-4 fw-bold"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          Registration
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-dark" id="staticBackdropLabel">Registration</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form class="text-dark">
+                  <form class="row">
+                    <div class="col-md-12 mb-3">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="example@email.com"
+                      />
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="inputPassword4"
+                        placeholder="password"
+                      />
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="inputAddress" class="form-label">Payment Info</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputAddress"
+                        placeholder="payment info"
+                      />
+                    </div>
+                    <div class="col-12 mb-4">
+                      <label for="inputAddress2" class="form-label">Address</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputAddress2"
+                        placeholder="apartment, studio, or floor"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" />
+                        <label class="form-check-label" for="gridCheck">Remember Me</label>
+                      </div>
+                    </div>
+                  </form>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- / REGISTER -->
 
     <!-- SUCCESSFUL STUDENTS  -->
-    <section class="container my-5 py-5">
+    <section class="container py-0 my-5 py-md-5">
       <div class="text-center text-md-start px-4 px-md-0">
         <h2 class="ff-secondary fw-bold fs-2 mb-3">Meet Our Successful Students</h2>
         <p class="text-black-50 mb-4">
@@ -339,8 +400,8 @@
           <div class="card">
             <img src="./assets/student/student-2.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h3 class="fs-5 fw-bold">Awlad Hossain</h3>
-              <p class="card-text text-black-50">UI/UX Designer</p>
+              <h3 class="fs-5 fw-bold">Jannatul Islam</h3>
+              <p class="card-text text-black-50">Motion Design</p>
             </div>
           </div>
         </div>
@@ -350,8 +411,8 @@
           <div class="card">
             <img src="./assets/student/student-3.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h3 class="fs-5 fw-bold">Awlad Hossain</h3>
-              <p class="card-text text-black-50">UI/UX Designer</p>
+              <h3 class="fs-5 fw-bold">Imran Hossain</h3>
+              <p class="card-text text-black-50">Graphic Designer</p>
             </div>
           </div>
         </div>
@@ -361,14 +422,14 @@
           <div class="card">
             <img src="./assets/student/student-4.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h3 class="fs-5 fw-bold">Awlad Hossain</h3>
-              <p class="card-text text-black-50">UI/UX Designer</p>
+              <h3 class="fs-5 fw-bold">Nishi Akter</h3>
+              <p class="card-text text-black-50">Web Developer</p>
             </div>
           </div>
         </div>
       </div>
       <div class="d-flex justify-content-center my-4">
-        <a href="#" class="btn btn-primary btn-lg fw-bold px-4 mt-4">View All</a>
+        <a href="#" class="btn btn-success btn-lg fw-bold px-4 mt-4">View All</a>
       </div>
     </section>
     <!-- / SUCCESSFUL STUDENTS  -->
@@ -384,37 +445,11 @@
       </div>
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active d-flex flex-column flex-lg-row">
+        <div class="carousel-inner d-flex flex-column flex-lg-row">
             <div class="p-3 border border-2 rounded-2 mb-3 mb-lg-0 me-lg-3">
               <div class="d-flex justify-content-between align-items-center mb-4">
                 <img src="./assets/comma.png" alt="" />
-                <div class="text-primary">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                </div>
-              </div>
-              <p class="text-black-50 mb-4">
-                There are many variations of passages of Lorem Ipsum available, but the majority
-                have suffered alteration in some form, by injected humour, or randomised words which
-                don't look even slightly believable. If you are going to use a passage of Lorem.
-              </p>
-              <div class="d-flex align-items-center">
-                <img class="me-3" src="./assets/student/student-5.png" alt="" />
-                <div>
-                  <h3 class="fs-5 fw-bold m-0">Shanta Akter</h3>
-                  <p class="m-0">Graphic Designer</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="p-3 border border-2 rounded-2">
-              <div class="d-flex justify-content-between align-items-center mb-4">
-                <img src="./assets/comma.png" alt="" />
-                <div class="text-primary">
+                <div class="text-success">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -430,6 +465,31 @@
               <div class="d-flex align-items-center">
                 <img class="me-3" src="./assets/student/student-6.png" alt="" />
                 <div>
+                  <h3 class="fs-5 fw-bold m-0">Shanta Akter</h3>
+                  <p class="m-0">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-3 border border-2 rounded-2">
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <img src="./assets/comma.png" alt="" />
+                <div class="text-success">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+              </div>
+              <p class="text-black-50 mb-4">
+                There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form, by injected humour, or randomised words which
+                don't look even slightly believable. If you are going to use a passage of Lorem.
+              </p>
+              <div class="d-flex align-items-center">
+                <img class="me-3" src="./assets/student/student-5.png" alt="" />
+                <div>
                   <h3 class="fs-5 fw-bold m-0">Awlad Hossain</h3>
                   <p class="m-0">UI Designer</p>
                 </div>
@@ -437,6 +497,7 @@
             </div>
           </div>
         </div>
+
         <button
           class="carousel-control-prev"
           type="button"
@@ -460,7 +521,7 @@
     <!-- / FEEDBACKS -->
 
     <!--  F&Q -->
-    <section class="container my-5 py-5">
+    <section class="container my-5 py-0 py-md-5">
       <div class="text-center">
         <h2 class="ff-secondary fs-1 fw-bold pb-3">Frequently Asked Questions</h2>
         <p class="text-black-50 pb-4">
@@ -590,7 +651,7 @@
     <!-- / F&Q -->
 
     <!-- TRUSTED -->
-    <section class="container mb-5 pb-4 d-none d-lg-block">
+    <section class="container mb-5 pb-5 d-none d-lg-block">
       <h2 class="ff-secondary fs-2 fw-bold text-center mb-5">Trusted by over 800+ companies</h2>
       <div class="d-flex justify-content-center align-items-center">
         <img class="me-5" src="./assets/company/company-1.png" alt="" />
@@ -606,8 +667,8 @@
     <!-- FOOTER -->
     <footer class="bg-dark">
       <div class="container text-light text-center mt-4 py-5">
-        <h2 class="ff-secondary fs-1 fw-bold py-3 text-primary">Learning Mate</h2>
-        <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+        <h2 class="ff-secondary fs-1 fw-bold py-3 text-success">Learning Mate</h2>
+        <p class="px-4">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
         <div>
           <a class="text-light text-decoration-none" href="#">Privacy Ploicy</a>
           <span>|</span>
@@ -615,22 +676,22 @@
         </div>
         <div class="d-flex justify-content-center pt-4 mt-5">
           <div>
-            <a class="text-light me-2 fs-3 p-2" href="https://twitter.com/?lang=en">
+            <a class="text-light me-2 fs-5 p-2" href="https://facebook.com">
               <i class="bi bi-facebook"></i>
             </a>
           </div>
           <div>
-            <a class="text-light me-2 fs-3 p-2" href="https://twitter.com/?lang=en">
+            <a class="text-light me-2 fs-5 p-2" href="https://twitter.com/?lang=en">
               <i class="bi bi-twitter"></i>
             </a>
           </div>
           <div>
-            <a class="text-light me-2 fs-3 p-2" href="https://www.linkedin.com/">
+            <a class="text-light me-2 fs-5 p-2" href="https://www.linkedin.com/">
               <i class="bi bi-linkedin"></i>
             </a>
           </div>
           <div>
-            <a class="text-light me-2 fs-3 p-2" href="https://www.tiktok.com/en/">
+            <a class="text-light me-2 fs-5 p-2" href="https://www.tiktok.com/en/">
               <i class="bi bi-tiktok"></i>
             </a>
           </div>

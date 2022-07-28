@@ -1,6 +1,3 @@
-/* -------------- */
-/* UTILITIES      */
-/* -------------- */
 .ff-primary {
   font-family: 'Roboto', sans-serif;
 }
@@ -23,10 +20,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 30rem; */
+  height: 30rem;
 }
 
-.banner-carousel-item > div {
+.banner-carousel-item > h1,
+.banner-carousel-item > p {
   max-width: 55ch;
 }
 
@@ -37,4 +35,8 @@
 
 .explore > .row {
   background-color: #f4fafd;
+}
+
+.register-text {
+  max-width: 55ch;
 }
